@@ -39,11 +39,11 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery2-CREATE Teachers and Disciplines.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery3.sql">
+        <FileNode Name="SQLQuery3-CREATE Shedule and Grades.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAVR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAVR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery3.sql</FullPath>
+          <FullPath>SQLQuery3-CREATE Shedule and Grades.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

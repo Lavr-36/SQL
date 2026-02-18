@@ -2,12 +2,12 @@
 USE PV_521_Import;
 
 SELECT
-    [?????????????] = FORMATMESSAGE(N'%s %s %s',last_name, first_name, middle_name)
-    ,[???? ????????] = birth_date
-    ,[???????] = CAST(DATEDIFF(DAY, birth_date, GETDATE())/365.25 AS TINYINT)
+    [Преподаватель] = FORMATMESSAGE(N'%s %s %s',last_name, first_name, middle_name)
+    ,[Дата рождения] = birth_date
+    ,[Возраст] = CAST(DATEDIFF(DAY, birth_date, GETDATE())/365.25 AS TINYINT)
 
 FROM Teachers
 WHERE CAST(DATEDIFF(DAY, birth_date, GETDATE())/365.25 AS  TINYINT) BETWEEN 38 AND 44
-ORDER BY [???????] ASC
---ASC - Ascending (?? ???????????)
---DESC - Descending (?? ????????)
+ORDER BY [Возраст] ASC
+--ASC - Ascending (По возрастанию)
+--DESC - Descending (По убыванию)
