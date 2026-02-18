@@ -1,4 +1,4 @@
-USE PV_521_DDL;
+﻿USE PV_521_DDL;
 
 CREATE TABLE Teachers
 (

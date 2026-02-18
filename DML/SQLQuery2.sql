@@ -1,4 +1,4 @@
---SQLQuery2-Aggregation
+﻿--SQLQuery2-Aggregation
 
 USE PV_521_Import;
 
